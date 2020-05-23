@@ -15,40 +15,41 @@ yum install -y xz openssl gawk file
 
 重装为CentOS 6.9：
 以下命令中的 -c 后面为CentOS版本号，-v 后面为64位/32位，可根据需求进行替换。
-# CentOS 6.9 64位：
+CentOS 6.9 64位：
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -c 6.9 -v 64 -a
 
-# CentOS 6.9 32位：
+CentOS 6.9 32位：
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -c 6.9 -v 32 -a
 
 重装为Debian：
 以下命令中的 -d 后面为Debian版本号，-v 后面为64位/32位，可根据需求进行替换。
-# Debian 8 64位：
+Debian 8 64位：
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 8 -v 64 -a
 
-# Debian 9 64位：
+Debian 9 64位：
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 9 -v 64 -a
 
 重装为Ubuntu：
 以下命令中的 -u 后面为Ubuntu版本号，-v 后面为64位/32位，可根据需求进行替换。
 
-# Ubuntu 12.04 64位：
+Ubuntu 12.04 64位：
 
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 12.04 -v 64 -a
 
 
-# Ubuntu 14.04 64位：
+Ubuntu 14.04 64位：
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 14.04 -v 64 -a
 
-# Ubuntu 16.04 64位：
+Ubuntu 16.04 64位：
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 16.04 -v 64 -a
 
-# Ubuntu 18.04 64位：
+Ubuntu 18.04 64位：
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -u 18.04 -v 64 -a
 
+# 
 脚本地址失效备份
-直接git clone后运行脚本命令
-
+直接git clone后运行脚本
+git clone https://github.com/ec000/MOEDD.git
 bash InstallNET.sh -d 9 -v 64 -a
 
 
